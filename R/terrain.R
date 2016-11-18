@@ -1,13 +1,12 @@
 #' Make an elevational grid with water
 #'
 #' A light wrapper around \code{diamond.square.step}
-#' @param n Size of grid will be a 2^n +1 grid (default: 7; a 129 x 129 grid)
+#' @param n Size of grid will be a 2^n +1 grid (default: 4; a 17 x 17 grid)
 #' diamond.square algorithm; inputs initially constructed terrain matrix and performs
 #' diamond square steps on all cells
 #' @return a terrain matrix; numeric elements indicate heights, and
 #' NAs indicate cells filled with water
 #' @return an image; a grid with colors corresponding to the values in the terrain matrix
-#' @usage make.terrain(n)
 #' @examples terrain <- make.terrain(4)
 #' @export
 

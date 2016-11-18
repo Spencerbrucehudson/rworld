@@ -4,7 +4,7 @@
 \alias{run.plant.ecosystem}
 \title{Make an time series plant ecosystem with water}
 \usage{
-run.plant.ecosystem(terrain, timesteps, survival, reproduciton, competition)
+run.plant.ecosystem(terrain, timesteps, survival, reproduction, competition)
 }
 \arguments{
 \item{terrain;}{inputs terrain matrix for underlying the plant composition matrix}

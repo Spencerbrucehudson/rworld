@@ -8,7 +8,6 @@
 #' @param competition; probability that a particular plant species will win in a competition
 #' @return a time series plant/water composition array; character elements including single letters
 #' indicate presence of a corresponding plant species while NA indicates water, "" indicates absolute absence
-#' @usage run.plant.ecosystem(terrain, timesteps, survival, reproduciton, competition)
 #' @examples rworld <- run.plant.ecosystem(terrain = make.terrain(4), timesteps=100, survival=c(.5,.5), reproduction=c(.5,.5), competition=matrix(c(.50,.50,.50,.50), 2))
 #' @export
 
