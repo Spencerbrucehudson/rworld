@@ -1,0 +1,10 @@
+Package: rworld
+Type: Package
+Title: Plant Ecology Model
+Version: 0.1.0
+Author: Spencer Hudson
+Maintainer: Who to complain to <spencerbrucehudson@gmail.com>
+Description: Generates a plant species ecological model over a terrain matrix.
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 5.0.1
