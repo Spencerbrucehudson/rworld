@@ -2,3 +2,6 @@
 
 export(make.terrain)
 export(run.plant.ecosystem)
+
+importFrom("graphics", "image")
+  importFrom("stats", "rnorm", "runif", "setNames")
