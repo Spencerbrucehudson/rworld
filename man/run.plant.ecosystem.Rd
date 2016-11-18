@@ -4,18 +4,18 @@
 \alias{run.plant.ecosystem}
 \title{Make an time series plant ecosystem with water}
 \usage{
-run.plant.ecosystem(terrain, timesteps, survival, reproduction, competition)
+run.plant.ecosystem(terrain, timesteps, survival, reproduciton, competition)
 }
 \arguments{
-\item{terrain}{dlafkdjfaklj}
+\item{terrain;}{inputs terrain matrix for underlying the plant composition matrix}
 
-\item{timesteps}{dlfajdkfj}
+\item{timesteps;}{accounts for time scale that plant species survive, reproduce and compete across terrain}
 
-\item{survival}{ldkfajdlkjf}
+\item{survival;}{probability that a particular plant species will survive at each timestep}
 
-\item{reproduction}{dlfadkfja}
+\item{reproduction;}{probability that a particular plant species will reproduce at each timestep}
 
-\item{competition}{ldkfjadklj}
+\item{competition;}{probability that a particular plant species will win in a competition}
 }
 \value{
 a time series plant/water composition array; character elements including single letters

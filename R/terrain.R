@@ -7,6 +7,7 @@
 #' @return a terrain matrix; numeric elements indicate heights, and
 #' NAs indicate cells filled with water
 #' @return an image; a grid with colors corresponding to the values in the terrain matrix
+#' @usage make.terrain(n)
 #' @examples terrain <- make.terrain(4)
 #' @export
 
